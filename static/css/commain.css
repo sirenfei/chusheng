@@ -1,0 +1,398 @@
+/*完美解决css3 web-safe字体各种浏览器兼容问题*/
+@font-face {
+    font-family: 'PingFangRegular';
+    /*定义字体名称*/
+    src: url('../../config/font/PingFangRegular.eot');
+    /*兼容eot*/
+    src: url('../../config/font/PingFangRegulard41d.eot?#iefix') format('embedded-opentype'),
+        url('../../config/font/PingFangRegular.woff2') format('woff2'),
+        url('../../config/font/PingFangRegular.woff') format('woff'),
+        /*火狐支持woff,woff2,opentype字体*/
+        url('../../config/font/PingFangRegular.ttf') format('truetype'),
+        /*基于webkit内核支持truetype字体*/
+        url('../../config/font/PingFangRegular.svg#abandoned_bitplaneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: ultra-expanded;
+    /*定义字体符合拉伸*/
+}
+
+@font-face {
+    font-family: 'PingFangMedium';
+    /*定义字体名称*/
+    src: url('../../config/font/PingFangMedium.eot');
+    /*兼容eot*/
+    src: url('../../config/font/PingFangMediumd41d.eot?#iefix') format('embedded-opentype'),
+        url('../../config/font/PingFangMedium.woff2') format('woff2'),
+        url('../../config/font/PingFangMedium.woff') format('woff'),
+        /*火狐支持woff,woff2,opentype字体*/
+        url('../../config/font/PingFangMedium.ttf') format('truetype'),
+        /*基于webkit内核支持truetype字体*/
+        url('../../config/font/PingFangMedium.svg#abandoned_bitplaneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: ultra-expanded;
+    /*定义字体符合拉伸*/
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../../config/font/Helvetica.ttf');
+}
+
+/*body{width:100%;height:100%;font-family:'Helvetica',"pingFang","宋体", sans-serif;font-size: 14px;background: #F5F5F5;color:#262626}*/
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'PingFangMedium', "PingFangRegular", "Microsoft YaHei";
+    font-size: 14px;
+    background: #fff;
+    color: #262626
+}
+
+*,
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+li {
+    list-style: none
+}
+
+a {
+    color: #262626;
+    text-decoration: none
+}
+
+a:hover {
+    color: #D13529;
+    text-decoration: none
+}
+
+.ff-m {
+    font-family: 'PingFangMedium'
+}
+
+.ff-r {
+    font-family: 'PingFangRegular'
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.ft-12 {
+    font-size: 12px;
+}
+
+.ft-16 {
+    font-size: 16px;
+}
+
+.ft-18 {
+    font-size: 18px;
+}
+
+.ft-20 {
+    font-size: 20px;
+}
+
+.ft-22 {
+    font-size: 22px;
+}
+
+.ft-24 {
+    font-size: 24px;
+}
+
+.ft-40 {
+    font-size: 40px;
+}
+
+.ft-56 {
+    font-size: 36px;
+}
+
+.pos-r {
+    position: relative
+}
+
+.pos-a {
+    position: absolute
+}
+
+.mb-72 {
+    margin-bottom: 73px;
+}
+
+.ml-56 {
+    margin-left: 56px;
+}
+
+.ml-56 {
+    margin-left: 56px;
+}
+
+.ml-78 {
+    margin-left: 78px;
+}
+
+.hide {
+    display: none;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.left {
+    float: left
+}
+
+.right {
+    float: right
+}
+
+.clear {
+    clear: both
+}
+
+.disN {
+    display: none;
+}
+
+.content {
+    width: 100%;
+    max-width: 1135px;
+    margin: 0 auto;
+}
+
+.curson-p{cursor: pointer;}
+.suxian {
+    position: relative;
+    padding-left: 24px;
+}
+
+.suxian:after {
+    position: absolute;
+    content: "";
+    width: 8px;
+    left: 0;
+    top: 0px;
+    height: 36px;
+    background: #1780E0;
+}
+
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 98px;
+    background: #262626;
+}
+
+.header .logo {
+    margin-left: 5%;
+}
+
+.header .logo img {
+    max-width: 418px;
+}
+
+.header .nav {
+    margin-right: 40px;
+}
+
+.header .nav li {
+    float: left;
+    /* padding: 0 5px; */
+    border-bottom: 8px solid rgba(0, 0, 0, 0);
+    margin: 0 5px;
+    line-height: 90px;
+    margin: 0 40px;
+    color: #fff;
+    width: 120px;
+    text-align: center;
+
+}
+
+.header .nav li a {
+    color: #fff
+}
+
+.header .nav li.active {
+    border-bottom: 8px solid #1780E0;
+    font-weight: 600;
+}
+
+.product-child {
+    top: 96px;
+    left:0;
+    width: 100%;
+    background: rgba(38, 38, 38, 0.8);
+    text-align: center;
+    display: none;
+    font-weight: normal;
+    z-index: 100;
+}
+
+.product-child a {
+    display: block;
+    line-height: 40px;
+    padding: 15px 0;
+    color: #fff;
+    border-bottom: 1px solid rgba(256, 256, 256, 0.14);
+    font-size: 16px;
+    ;
+}
+
+.product-child a:hover,.product-child a.active1 {
+    background-color: #1780E0;
+}
+
+.commain {
+    width: 100%;
+    min-width: 1100px;
+}
+
+.banner {
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:472px;display: flex;
+    align-items: center;
+}
+
+.banner img {
+    width: 393px;
+    vertical-align: bottom
+}
+
+.banner p {
+    color: #242021;
+    padding-left: 12px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+
+/*产品*/
+.pro-con ul {
+    width: 100%;
+    margin-top: 72px;
+}
+
+.pro-con ul li {
+    padding: 17px 98px;
+    position: relative;
+    margin-bottom: 24px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+    transition: all 0.8s;
+}
+
+.pro-con ul a:last-child li {
+    margin-bottom: 90px;
+}
+
+.pro-con ul li:hover {
+    transform: scale(1.04);
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    -o-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.pro-con ul li:after {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    content: "";
+    width: 58px;
+    height: 58px;
+}
+
+.pro-con ul li.first:after {
+    background: url("../images/p-1.html") no-repeat;
+    background-size: 100% 100%;
+}
+
+.pro-con ul li.second:after {
+    background: url("../images/p-2.html") no-repeat;
+    background-size: 100% 100%;
+}
+
+.pro-con ul li.three:after {
+    background: url("../images/p-3.html") no-repeat;
+    background-size: 100% 100%;
+}
+
+.pro-con ul li.four:after {
+    background: url("../images/p-4.html") no-repeat;
+    background-size: 100% 100%;
+}
+
+.pro-con ul li.five:after {
+    background: url("../images/p-5.html") no-repeat;
+    background-size: 100% 100%;
+}
+
+.pro-con ul li.six:after {
+    background: url("../images/p-6.html") no-repeat;
+    background-size: 100% 100%;
+}
+
+.pro-con ul li h5 {
+    font-size: 16px;
+    color: #1C1C1C;
+    line-height: 22px;
+    margin-bottom: 9px;
+}
+
+.pro-con ul li p {
+    font-size: 14px;
+    color: rgba(28, 28, 28, 1);
+    line-height: 20px;
+    min-height: 44px;
+}
+
+ 
+
+.footer-ifram,
+.header-ifram {
+    width: 100%;
+    display: block;
+}
+
+.header-ifram {
+    height: 98px;
+}
+
+.footer-ifram {
+    height: 246px;
+    overflow-y: hidden;
+
+}
+
+@media screen and (max-width:1526px) {
+    .header .nav li {
+        margin: 0 29px
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .header .nav li {
+        margin: 0 16px
+    }
+}

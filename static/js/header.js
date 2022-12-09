@@ -1,0 +1,20 @@
+document.writeln(" <div class=\'header\'>");
+document.writeln("            <div class=\'logo\'>");
+document.writeln("                <a href=\'index.html\'><img src=\'static/images/logo.png\'></a>");
+document.writeln("            </div>");
+document.writeln("            <ul class=\'nav ft-18\' id=\'nav\'>");
+document.writeln("                <li class=\'navLi active\' htm=\'index\'> <a href=\'index.html\'>首页</a></li>");
+document.writeln("                <li class=\'navLi product-nav pos-r\' htm=\'case\'><a href=\'javascript:void(0)\'>解决方案 </a>");
+document.writeln("                    <div class=\'product-child pos-a\' >");
+document.writeln("                        <a href=\'case-antiFraud.html\' class=\'product-child-nav\'  htm=\'case-antiFraud.html\'>车险反欺诈</a>");
+document.writeln("                        <a href=\'case-annualInspection.html\' class=\'product-child-nav\'  htm=\'case-annualInspection.html\'>年检服务</a>");
+document.writeln("                        <a href=\'case-airportParking.html\' class=\'product-child-nav\'  htm=\'case-airportParking.html\'>机场停车</a>");
+document.writeln("                        <a href=\'case-carCare.html\' class=\'product-child-nav\' htm=\'case-carCare.html\'>车辆保养</a>");
+document.writeln("                    </div>");
+document.writeln("                </li>");
+document.writeln("                <li class=\'navLi\' htm=\'cooperation\'><a href=\'cooperation.html\'>合作伙伴 </a></li>");
+document.writeln("                <li class=\'navLi\' htm=\'about\'><a href=\'about.html\'>关于我们 </a></li>");
+document.writeln("            </ul>");
+document.writeln("");
+document.writeln("        </div>");
+

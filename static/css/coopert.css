@@ -1,0 +1,218 @@
+ 
+
+.cooperat-com .txt-box {
+    margin: 103px 0 66px 0
+}
+
+.cooperat-com .txt-box h1 {
+    font-size: 32px;
+    line-height: 43px;
+    letter-spacing: 1.13px;
+}
+
+.cooperat-com .suxian:after {
+    height: 43px;
+}
+
+.cooperat-com .txt-box p {
+    line-height: 33px;
+    margin-top: 17px;
+    font-weight: 400;
+    font-size: 22px;
+    width: 75%;
+}
+
+.cooperat-ul,
+.software-ul {
+    overflow: hidden;
+    margin-bottom: 82px;
+}
+
+.cooperat-ul li{
+    float: left;
+   
+    margin-bottom: 47px;
+    text-align: center;
+}
+.cooperat-ul-parent li{
+   width: 100%;
+}
+
+.cooperat-ul-child li{
+    width: calc(25% - 36px);
+ }
+.cooperat-ul .box-show {
+    background: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    transition: all 0.8s;
+}
+.cooperat-ul-child .box-show {
+    box-shadow: 0px 7px 24px 0px rgba(0, 0, 0, 0.1)}
+
+.cooperat-ul .box-show:hover {
+    transform: scale(1.04);
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    -o-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+}
+/* 
+.cooperat-ul li {
+    
+    background: #fff;
+    float: left;
+    margin-bottom: 47px;
+    text-align: center;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    transition: all 0.8s;
+}
+
+.cooperat-ul li:hover {
+    transform: scale(1.04);
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    -o-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+} */
+
+.cooperat-ul-parent li:not(:nth-child(4n)) {
+    margin-right: 47px
+}
+
+.cooperat-ul-child li:not(:nth-child(3n)) {
+    margin-right: 47px
+}
+.cooperat-ul-child li{margin-bottom:16px;}
+
+.cooperat-ul li img {
+    max-width: 247px;
+    max-height: 100%;
+}
+
+
+.software-ul li {
+    text-align: left;
+    width: calc(25% - 16px);
+    float: left;
+    margin-bottom: 33px;
+    margin-right: 18px;
+}
+
+.software-ul li .opactiy0 {
+    opacity: 0;
+}
+
+.software-ul li:nth-child(4n) {
+    margin-right: 0
+}
+
+.software-ul li .software-title {
+    font-size: 18px;
+    color: #262626;
+    line-height: 25px;
+    border-bottom: 1px solid #C1C1C1;
+    text-align: left;
+    margin-bottom: 16px;
+    padding-right: 16px;
+    display: inline-block;
+}
+
+.software-ul li .software-context {
+    font-size: 16px;
+    margin-top: 7px;
+    font-family: 'PingFangRegular';
+    text-align: center;
+}
+
+.software-ul li .software-img {
+    padding: 20px;
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.software-ul li .software-img img {
+    width: 100%
+}
+
+.img-box {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-box .img-box-con {
+    width: 50%;
+    height: 70%;
+    background: #fff;
+    min-width: 850px;
+}
+
+.img-box .img-box-con .title-box {
+    font-size: 18px;
+    padding: 16px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-box .img-box-con .title-box .close {
+    cursor: pointer;
+}
+
+.img-box .img-box-con .cooperat-ul {
+    box-sizing: border-box;
+    overflow-y: auto;
+    padding: 0 58px;
+    height:calc(100% - 113px);
+    margin: 35px 0 16px 0
+}
+
+.bxTitle {
+    margin-top: 8px;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    /* overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; */
+}
+
+@media screen and (max-width: 1920px) {
+    .cooperat .content {
+        max-width: 1000px;
+    }
+
+    .cooperat-ul li img {
+        max-width: 200px;
+    }
+
+
+    .cooperat-ul-parent li {
+        width: calc(25% - 30px);
+        height:88px;
+        overflow: hidden;
+    }
+
+
+
+    .cooperat-ul-parent li:not(:nth-child(4n)) {
+        margin-right: 40px
+    }
+
+    .cooperat-ul-child li {
+        width: calc(33% - 30px)
+    }
+
+    .cooperat-ul-child li:not(:nth-child(3n)) {
+        margin-right: 40px
+    }
+}

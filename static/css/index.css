@@ -1,0 +1,114 @@
+/*首页*/
+.banner-index{
+    height: 600px;
+    background: url("../images/banner-index.png");
+    background-size: cover;
+    background-position: 50%;
+}
+.banner-index .banner-img{width:590px;}
+
+.con-title {
+    font-size: 20px;
+    margin: 70px auto 80px auto;
+    text-align: center;
+}
+
+.con-title span {
+    padding: 0 12px 10px;
+    font-weight: 600;
+    border-bottom: 6px solid #1780E0;
+}
+
+.fuwu {
+    margin-bottom: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fuwu li {
+    width: 20%;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid rgba(151, 151, 151, 0.5);
+    text-align: center;
+}
+
+.fuwu li .title {
+    width: 100%;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    line-height: 25px;
+    font-size: 16px;
+     font-weight: 500;
+    border-bottom: 1px solid rgba(151, 151, 151, 0.5);
+
+}
+
+.fuwu li .iconfont {
+    font-size: 45px;
+    color: #1780E0;
+    margin: 16px 0;
+}
+
+.fuwu li .shouming {
+    line-height: 30px;
+    padding: 0 16px;
+    word-break: break-all;
+    box-sizing: border-box;
+    text-align: left;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-family: PingFangRegular;
+}
+
+.fuwu li:hover {
+    color: #fff;
+    background: #1780E0;
+}
+.fuwu li:hover .title{border-bottom:1px solid #fff;}
+
+.fuwu li:hover .iconfont {
+    color: #fff;
+}
+
+.case {
+    width: 100%;
+    background: url("../images/case-bg.png") no-repeat top center;
+    background-size: 100% 100%;
+    padding: 65px 0
+}
+
+.case .con-title {
+    color: #fff;
+    margin-top: 0
+}
+
+.case .content {
+    overflow: hidden;
+}
+
+.case-img {
+    width: 52%;
+}
+
+.case-img img {
+    width: 100%
+}
+
+.case-con {
+    color: #fff;
+    width: 43%;
+    margin-top: 10%;
+    line-height: 30px;
+}
+
+.more {
+    border-radius: 20px;
+    color: #fff;
+    background-color: #1780E0;
+    padding: 10px 25px;
+    font-size: 18px;
+    letter-spacing: 0.5rem;
+    margin-top: 50px;
+}

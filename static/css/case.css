@@ -1,0 +1,209 @@
+.port-ul {
+    width: 100%;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.port-ul li {
+    margin-top: 80px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.port-img {
+    width: 110px;
+}
+
+.port-img img {
+    width: 100%
+}
+
+.port-title {
+    width: 40px;
+    margin: 0 48px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.port-con {
+    width: calc(100% - 272px);
+    margin-top: 1%
+}
+
+.port-con p {
+    width: 100%;
+    line-height: 25px;
+}
+
+.car-serer-part1 {
+    padding: 87px 0 37px 0;
+}
+
+.bor-b-gren {
+    border-bottom: 1px solid #979797
+}
+
+.car-serve-part2 {
+    width: 100%;
+    margin: 84px 0;
+    overflow: hidden;
+}
+
+.car-serve-part2 li {
+    width: 21%;
+    margin-right: 16.5%;
+    float: left;
+    text-align: center;
+}
+
+.car-serve-part2 li:last-child {
+    margin-right: 0
+}
+
+.list-title {
+    text-align: center;
+}
+
+.list-img {
+    width: auto;
+    height: 80px;
+    text-align: center;
+    margin: 34px 0;
+}
+
+.list-txt {
+    text-align: left;
+}
+
+.car-serer-part3 .title{margin-bottom:16px;}
+.liucheng {
+    width: 80%;
+    margin: 16px auto 87px auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.liucheng::before {
+    position: absolute;
+    left: 0;
+    right: 80px;
+    top: 12px;
+    content: "";
+    height: 1px;
+    background-color: #979797;
+
+    z-index: -1;
+}
+
+.liucheng li {
+    float: left;
+}
+
+.circle-box {
+    background-color: #fff;
+    padding: 0 17px;
+    width: 24px;
+    margin-bottom:16px;
+}
+
+.circle-box img {
+    width: 100%;
+}
+
+
+.fuwu {
+    margin-bottom: 70px;
+    margin-top:70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fuwu li {
+    width: 25%;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.fuwu li .title {
+    width: 100%;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: "PingFangMedium";
+    font-weight: 600;
+    color:rgba(38,38,38,1);
+}
+
+.fuwu li .icon {
+    width: 112px;
+    height: 112px;
+}
+
+.fuwu li .explain {
+    line-height: 30px;
+    padding: 0 10px;
+    word-break: break-all;
+    box-sizing: border-box;
+    text-align: left;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    font-size: 16px;
+}
+
+.case {
+    width: 100%;
+    padding: 40px 54px;
+    background:rgba(61,91,148,0.08);
+    box-sizing: border-box;
+}
+
+.case .con-title {
+    color: #fff;
+    margin-top: 0
+}
+
+.case .content {
+    overflow: hidden;
+    width:100%;
+}
+
+.case-img {
+    width: 60%;
+}
+
+.case-img img{
+    width:100%;
+}
+
+.case-con {
+    color: #fff;
+    width: 36%;
+    margin-top: 2%
+}
+
+.case-con .main-title{
+    font-family:PingFangSC-Medium,PingFang SC;
+    font-weight:600;
+    color:rgba(38,38,38,1);
+    line-height:45px;
+    font-size: 18px;
+}
+
+.case-con .sub-title{
+    font-family:PingFangSC-Medium,PingFang SC;
+    font-weight:600;
+    color:rgba(38,38,38,1);
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.case-con .title{
+    font-family:PingFangSC-Medium,PingFang SC;
+    color:rgba(38,38,38,1);
+    font-size: 14px;
+}

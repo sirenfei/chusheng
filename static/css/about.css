@@ -1,0 +1,12 @@
+.about-part1 {
+    line-height: 32px;
+    color: #1C1C1C;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.about-part1 .content {
+    margin: 60px auto;
+} 
+.about-banner .content{text-align: center;}
+.about-banner .banner-img{margin-bottom:37px;}
