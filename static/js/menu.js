@@ -6,7 +6,10 @@ for (i = 0, len = $(".navLi").length; i < len; i++) {
     if (url.indexOf(nav) > 0) {
         $(".navLi").eq(i).addClass("active");
        
-    } else{
+    } else if(url.indexOf('dadi') > 0) {
+        $(".navLi").eq(2).addClass("active");
+    }
+    else{
         isIndex++
     }
 }
