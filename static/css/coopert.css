@@ -78,11 +78,11 @@
 } */
 
 .cooperat-ul-parent li:not(:nth-child(4n)) {
-    margin-right: 47px
+    margin-right: 70px
 }
 
 .cooperat-ul-child li:not(:nth-child(3n)) {
-    margin-right: 47px
+    margin-right: 70px
 }
 .cooperat-ul-child li{margin-bottom:16px;}
 
