@@ -84,8 +84,18 @@
                 if (listData && listData.length > 0) {
                     var htm = ""
                     for (var i = 0, len = listData.length; i < len; i++) {
-                        htm += '  <li class="show-more box-show"    kid="' + listData[i].kid + '" linkUrl="' + listData[i].linkUrl + '" name="' + listData[i].name + '" childNum="' + listData[i].leafNode + '"><img src="' +
-                            listData[i].imgUrl + '"></li>'
+                        if (listData[i].name === "中国大地财产保险股份有限公司") {
+                            // 点击中国大地保险时直接跳转
+                            htm += '<li class="box-show" onclick="window.location.href=\'dadi.html\'">' +
+                                '<img src="' + listData[i].imgUrl + '">' +
+                                '</li>';
+                        } else {
+                            // 其他保险公司保持原逻辑
+                            htm += '<li class="show-more box-show" kid="' + listData[i].kid + '" linkUrl="' + listData[i].linkUrl + 
+                                '" name="' + listData[i].name + '" childNum="' + listData[i].leafNode + '">' +
+                                '<img src="' + listData[i].imgUrl + '">' +
+                                '</li>';
+                        }
                     }
                     $("#cooperatBox").html(htm);
                     imgClick(listData)
@@ -158,7 +168,6 @@
                     commissionRatio:"",
                     createTime:"2021-02-04T09:48:37",
                     endDate:"2025-02-04",
-                    // imgUrl:"https://sirenfei.github.io/chusheng/static/images/chexian.jpg",
                     imgUrl:"static/images/dadi_new1.jpg",
                     kid:185,
                     leafNode:"0",
